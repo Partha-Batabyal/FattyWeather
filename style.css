@@ -6,7 +6,7 @@
 body {
   width: 100%;
   height: 100%;
-  background-color: #1a1a1a;
+  background-color: #116175;
   color: #fff;
 }
 .screen {
@@ -17,20 +17,19 @@ body {
   align-items: center;
 }
 .box {
-  background-color: rgba(255, 255, 255, 0.17);
+  background-color: #5898a5;
   width: 40vw;
   height: 60vh;
   border-radius: 40px;
   display: flex;
-
+  overflow: hidden;
   justify-content: center;
   align-items: center;
   padding: 10px;
 }
 .Wrapper {
-  /* background-color: aqua; */
   width: 80%;
-  height: 60%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -47,7 +46,7 @@ body {
 .input input {
   width: 80%;
   height: 70%;
-  border-radius: 10px;
+  border-radius: 40px;
   border: 1px solid #fff;
   color: #fff;
   font-size: 17px;
@@ -68,7 +67,7 @@ body {
 .btn button {
   width: 30%;
   height: 70%;
-  border-radius: 10px;
+  border-radius: 30px;
   border: 1px solid #fff;
   color: #000000;
   font-size: 17px;
@@ -81,8 +80,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* background-color: #6b0b0b; */
 }
 .cityName p {
   color: #000;
@@ -92,7 +89,7 @@ body {
 }
 .weatherNumber {
   width: 100%;
-  height: 35%;
+  height: 25%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -100,7 +97,7 @@ body {
   /* background-color: #6b0b0b; */
 }
 .temp {
-  width: 13rem;
+  width: 14rem;
   height: 50%;
   display: flex;
   justify-content: space-around;
@@ -114,7 +111,7 @@ body {
   text-transform: capitalize;
 }
 .humidity {
-  width: 10rem;
+  width: 13rem;
   height: 50%;
   display: flex;
   justify-content: space-around;
@@ -138,10 +135,33 @@ body {
     height: 80vh;
   }
   .input input {
+    border-radius: 40px;
     width: 90%;
   }
   .btn button {
     width: 60%;
+  }
+  .cityName p {
+    font-size: 20px;
+    color: #27ffb0;
+  }
+  .weatherNumber p {
+    font-size: 20px;
+    color: #afcbc1;
+  }
+  .weatherNumber .temp .tempData {
+    font-size: 20px;
+    color: #27ffb0;
+  }
+  .weatherNumber .humidity .humidityData {
+    font-size: 20px;
+    color: #27ffb0;
+  }
+}
+@media (min-width: 701px) and (max-width: 1600px) {
+  .box {
+    width: 70vw;
+    height: 80vh;
   }
   .cityName p {
     font-size: 20px;
