@@ -142,7 +142,7 @@ body {
     width: 60%;
   }
   .cityName p {
-    font-size: 20px;
+    font-size: 26px;
     color: #27ffb0;
   }
   .weatherNumber p {
@@ -164,7 +164,7 @@ body {
     height: 80vh;
   }
   .cityName p {
-    font-size: 20px;
+    font-size: 30px;
     color: #27ffb0;
   }
   .weatherNumber p {
